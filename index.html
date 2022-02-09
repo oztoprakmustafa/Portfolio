@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Cihan Erenler" />
+    <meta
+      name="keywords"
+      content="Mustafa Oztoprak, AI, matlab, python, TensorFlow, VHDL, C#"
+    />
+    <meta
+      name="description"
+      content="Mustafa Oztoprak personal website. This is a place where you can find my projects and informations about me."
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/css/bootstrap.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Mustafa Oztoprak | Portfolio Website</title>
+    <link rel="shortcut icon" href="src/assets/fav.png" type="image/x-icon" />
+  </head>
+  <body id="home">
+    <!-- Hamburger button starts here -->
+    <span class="ham-wrap d-block d-lg-none">
+      <div id="toggle" class="ham">
+        <div class="ham-bar"></div>
+        <div class="ham-bar"></div>
+        <div class="ham-bar"></div>
+      </div>
+    </span>
+    <!-- Hamburger button ends here -->
+
+    <!-- Main header starts here -->
+    <header id="main-header" class="overflow-hidden">
+      <img src="src/assets/svg/ellipse-1.svg" alt="ellipse" class="ellipse" />
+
+      <!-- Navbar -->
+      <nav id="main-navbar" class="navbar fixed-top py-3 primary-navbar">
+        <div class="container">
+          <a href="#">
+            <h1 id="logo" class="fw-bold secondary mb-0 h2">
+              <span class="primary me-1 mt-1 d-inline-block">&#11044;</span>MO
+            </h1>
+          </a>
+          <div
+            class="custom-nav d-flex text-center align-items-center h-100 mb-0 fw-normal d-none d-lg-flex ps-0"
+          >
+            <li class="custom-nav-item">
+              <a href="#home" class="custom-nav-link">Home</a>
+            </li>
+            <li class="custom-nav-item">
+              <a href="#skills" class="custom-nav-link">Skills</a>
+            </li>
+            <li class="custom-nav-item">
+              <a href="#projects" class="custom-nav-link">Projects</a>
+            </li>
+            <li class="custom-nav-item">
+              <a href="#about" class="custom-nav-link">About</a>
+            </li>
+            <li class="custom-nav-item">
+              <a href="#contact" class="custom-nav-link">Contact</a>
+            </li>
+          </div>
+          <div class="social-links d-none d-lg-block">
+            <a
+              href="https://www.linkedin.com/in/mustafaoztoprak/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in mx-2"></i>
+            </a>
+            <a href="https://github.com/oztoprakmustafa" target="_blank">
+              <i class="fab fa-github-alt mx-2"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/mustafaveoztoprak/"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-f mx-2"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar ends -->
+
+      <!-- Showcase stars -->
+      <section id="showcase">
+        <div class="container h-100 d-flex">
+          <div
+            class="row flex-lg-row justify-content-lg-start flex-column-reverse justify-content-center"
+          >
+            <div
+              class="showcase-content col-lg-6 d-flex flex-column align-items-center align-items-lg-start justify-content-center mt-lg-0 mt-sm-5 text-center text-lg-start"
+            >
+              <h1 class="display-2 fw-bold secondary">
+                Hey, <br />
+                I'm<span class="primary"> Mustafa Oztoprak</span>
+              </h1>
+              <p class="lead text-muted fw-normal fs-3">
+                Electrical and Electronics Engineer
+                <span class="typing"></span>
+              </p>
+              <a href="#projects" class="custom-btn custom-btn-primary">
+                See my projects
+              </a>
+            </div>
+            <div class="showcase-image col-lg-6 d-flex align-items-center">
+              <div class="img-outer position-relative mb-3">
+                <img
+                  class="position-absolute dots d-none d-lg-block"
+                  src="src/assets/svg/dots.svg"
+                  alt="dots"
+                />
+                <div class="img-wrap overflow-hidden mx-auto">
+                  <img
+                    class="img-fluid"
+                    src="src/assets/img/1light-sm.png"
+                    alt="Cihan Erenler"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Showcase ends -->
+    </header>
+    <!-- Header ends here -->
+
+    <!-- Sidebar starts here -->
+    <aside id="sidebar" class="side p-5">
+      <ul class="side-nav">
+        <li class="side-nav-item">
+          <a href="#home" class="side-nav-link">Home</a>
+        </li>
+        <li class="side-nav-item">
+          <a href="#skills" class="side-nav-link">Skills</a>
+        </li>
+        <li class="side-nav-item">
+          <a href="#projects" class="side-nav-link">Projects</a>
+        </li>
+        <li class="side-nav-item">
+          <a href="#about" class="side-nav-link">About</a>
+        </li>
+        <li class="side-nav-item">
+          <a href="#contact" class="side-nav-link">Contact</a>
+        </li>
+      </ul>
+    </aside>
+    <!-- Sidebar ends here -->
+
+    <main id="main">
+      <!-- Skills starts here -->
+      <section id="skills" class="text-center py-5">
+        <p class="lead text-uppercase title-color-2 fw-bold mb-0 mt-3">
+          my skills
+        </p>
+        <h1 class="display-5 fw-bold title-color mb-5">My Skill Set</h1>
+        <div class="container">
+          <div class="row">
+            <div
+              v-for="skill in skillsData"
+              :key="skill.id"
+              class="col-lg-2 col-sm-4 mb-4 col-6"
+            >
+              <div class="box shadow-sm py-3">
+                <i :class="skill.icon"></i>
+                <h6 class="text-muted">{{skill.desc}}</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-5"></div>
+        </div>
+      </section>
+      <!-- Skills ends here -->
+
+      <section id="download-cv">
+        <div class="container">
+          <div class="row flex-lg-row flex-column-reverse">
+            <div
+              class="col-lg-6 px-5 d-flex py-lg-0 py-5 flex-column text-center justify-content-center pt-0"
+            >
+              <h4>Download my CV</h4>
+              <p class="lead text-muted">
+                To learn more about me you can also download my cv
+              </p>
+              <a
+                href="src/assets/cv/Mustafa Oztoprak Resume.pdf"
+                class="custom-btn custom-btn-primary custom-btn-small mx-auto"
+                download="Mustafa Oztoprak Resume"
+              >
+                Download my CV
+              </a>
+            </div>
+            <div
+              class="col-lg-6 px-5 d-flex align-items-center justify-content-center py-lg-0 py-5"
+            >
+              <img
+                class="img-fluid h-75"
+                src="src/assets/svg/undraw_Updated_resume_re_q1or.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects starts here -->
+      <section id="projects" class="text-center py-5">
+        <p class="lead text-uppercase title-color-2 fw-bold mb-0 mt-3">
+          Portfolio
+        </p>
+        <h1 class="display-5 fw-bold title-color mb-5">My Projects</h1>
+        <div class="container">
+          <div
+            v-for="project in projectsData"
+            :key="project.id"
+            class="custom-card overflow-hidden"
+          >
+            <div class="custom-card-img col-lg-4 position-relative">
+              <img
+                class="img-fluid p-0"
+                :src="project.img"
+                :alt="project.title"
+              />
+              <div v-if="project.react" class="react-project position-absolute">
+                <i class="fab fa-react"></i>
+                React project
+              </div>
+            </div>
+            <div
+              class="custom-card-body col-lg-8 p-3 pb-5 text-start position-relative d-flex flex-column justify-content-between"
+            >
+              <div>
+                <h3 class="custom-card-title text-capitalize">
+                  {{project.title}}
+                </h3>
+                <p class="custom-card-text text-muted fw-light">
+                  {{project.desc}}
+                </p>
+              </div>
+              <div class="mb-3">
+                <span
+                  v-for="tag in project.tags"
+                  class="badge rounded-pill text-dark bg-light me-1"
+                  >#{{tag}}</span
+                >
+              </div>
+              <div class="card-buttons d-flex mb-4">
+                <a
+                  :href="project.github"
+                  class="custom-btn custom-btn-dark custom-btn-small mx-auto-md"
+                  target="_blank"
+                >
+                  GitHub
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Projects ends here -->
+
+      <!-- About starts here -->
+      <section id="about" class="py-5">
+        <div class="container py-5">
+          <p class="lead text-uppercase title-color-2 fw-bold mb-3 mt-3">
+            nice to meet you
+          </p>
+          <h1 class="title-color display-5 mb-3 fw-bold">
+            Hey, I'm Mustafa, <br />
+            Electrical and Electronics Engineer
+          </h1>
+          <p class="lead text-muted">
+            I am a graduate student of E&E engineering at Northern Illinois
+            University. Before moving to US I worked as an Electrical Engineer
+            in Turkey's biggest Electrical Distribution company Enerjisa for two
+            years. Currently I am in last semester of my degree. My main
+            research interests are machine learning, speech, language
+            processing, and computer vision. I am particularly interested in
+            machine learning methods that can learn from small amounts of
+            labelled data, and in unsupervised methods that can learn from
+            directly raw unlabelled data.
+          </p>
+          <div class="person d-flex">
+            <div class="person-img-wrap overflow-hidden">
+              <img
+                class="img-fluid"
+                src="src/assets/img/1light-sm.png"
+                alt="Mustafa Öztoprak"
+              />
+            </div>
+            <div
+              class="d-flex align-items-start flex-column justify-content-center ps-3"
+            >
+              <h5 class="mb-0 title-color" style="font-size: 18px">
+                Mustafa Oztoptak
+              </h5>
+              <p class="mb-0 title-color-2" style="font-size: 14px">
+                Electrical and Electronics Engineer
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About ends here -->
+
+      <!-- Contact form starts here -->
+      <section id="contact" class="text-center py-5 bg-light">
+        <div class="container my-5">
+          <div class="card bg-white p-lg-5 p-3 pb-5 rounded border-0 shadow-sm">
+            <div class="row">
+              <div class="col-lg-6 form-wrap">
+                <p class="lead text-uppercase title-color-2 fw-bold mb-0 mt-3">
+                  email me
+                </p>
+                <h1 class="display-5 fw-bold title-color mb-5">Contact</h1>
+                <form
+                  method="POST"
+                  name="contact"
+                  class="form"
+                  data-netlify="true"
+                  action="/success.html"
+                >
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      name="name"
+                      placeholder="Your name"
+                    />
+                    <div class="invalid-feedback">Please enter your name.</div>
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="Your email"
+                    />
+                    <div class="invalid-feedback">Please enter your email.</div>
+                  </div>
+                  <div class="mb-3">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="3"
+                      name="message"
+                      placeholder="Your message"
+                    ></textarea>
+                    <div class="invalid-feedback">
+                      Please enter a message in the textarea.
+                    </div>
+                  </div>
+                  <button
+                    type="submit"
+                    class="custom-btn custom-btn-primary custom-btn-small custom-btn-full"
+                  >
+                    Send
+                  </button>
+                </form>
+              </div>
+              <div
+                class="col-lg-6 d-lg-flex align-items-center justify-content-center d-none"
+              >
+                <img
+                  class="img-fluid h-75"
+                  src="src/assets/svg/mailbox.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact form ends here -->
+
+      <!-- Footer starts here -->
+      <footer id="main-footer" class="bg-dark py-4">
+        <div>
+          <div
+            class="social-links d-flex align-items-center justify-content-center"
+          >
+            <a
+              href="https://www.linkedin.com/in/mustafaoztoprak/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in mx-2 text-light"></i>
+            </a>
+            <a href="https://github.com/oztoprakmustafa" target="_blank">
+              <i class="fab fa-github-alt mx-2 text-light"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/mustafaveoztoprak/"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-f mx-2 text-light"></i>
+            </a>
+          </div>
+        </div>
+        <p class="text-center text-muted mb-1">&copy; 2022 Copyright</p>
+      </footer>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="src/js/vue.js" type="module"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/index.js" defer></script>
+  </body>
+</html>
